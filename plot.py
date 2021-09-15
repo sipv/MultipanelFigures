@@ -14,6 +14,9 @@ class Background():
         plt.xticks(np.arange(0, 1 + spacing/2., spacing))
         plt.yticks(np.arange(0, 1 + spacing/2., spacing))
         plt.grid()
+        plt.xlim(0, 1)
+        plt.ylim(0, 1)
+        ax.autoscale(False)
         if not visible:
             plt.axis('off')
         self.axes = ax
