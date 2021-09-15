@@ -81,6 +81,11 @@ def box_rounded(ax, pos, title=None, pad=0.0):
 
 
 def axbottomleft(ax):
+    """Hide the right and top spines
+    
+    https://stackoverflow.com/a/27361819/13392466
+    """
+    
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     ax.get_xaxis().tick_bottom()
