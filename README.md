@@ -1,4 +1,4 @@
-# Making multipanel figures with Matplotlib, quick and easy
+# Making multipanel figures with Matplotlib
 
 Viktor Sip, 2021
 
